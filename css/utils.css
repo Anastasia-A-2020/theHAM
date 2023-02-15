@@ -134,6 +134,7 @@ img {
   position: fixed;
   top: 90%;
   right: 10px;
+  display: block;
   padding: 3px;
   border: 1px solid var(--accent-color);
   border-radius: 50%;

@@ -1,35 +1,35 @@
 const imagesForWork = [
   {
     category: "web-design",
-    src: "../images/work/web.JPG",
+    src: "./images/work/web.JPG",
     alt: "web",
     class: "work-img",
   },
 
   {
     category: "graphic-design",
-    src: "../images/work/book.jpg",
+    src: "./images/work/book.jpg",
     alt: "book",
     class: "work-img",
   },
 
   {
     category: "landing-pages",
-    src: "../images/work/buttle.jpg",
+    src: "./images/work/buttle.jpg",
     alt: "buttle",
     class: "work-img",
   },
 
   {
     category: "web-design",
-    src: "../images/work/cup.jpg",
+    src: "./images/work/cup.jpg",
     alt: "cup",
     class: "work-img",
   },
 
   {
     category: "wordpress",
-    src: "../images/work/devises.jpg",
+    src: "./images/work/devises.jpg",
     alt: "devises",
     class: "work-img",
   },
@@ -43,41 +43,41 @@ const imagesForWork = [
 
   {
     category: "graphic-design",
-    src: "../images/work/note.jpg",
+    src: "./images/work/note.jpg",
     alt: "note",
     class: "work-img",
   },
 
   {
     category: "web-design",
-    src: "../images/work/box.jpg",
+    src: "./images/work/box.jpg",
     alt: "boxs",
     class: "work-img",
   },
 
   {
     category: "graphic-design",
-    src: "../images/work/pen.jpg",
+    src: "./images/work/pen.jpg",
     alt: "pen",
     class: "work-img",
   },
 
   {
     category: "landing-pages",
-    src: "../images/work/cards.jpg",
+    src: "./images/work/cards.jpg",
     alt: "cards",
     class: "work-img",
   },
   
   {
     category: "wordpress",
-    src: "../images/work/disk.jpg",
+    src: "./images/work/disk.jpg",
     alt: "disk",
     class: "work-img",
   },
   {
     category: "landing-pages",
-    src: "../images/work/magasine.jpg",
+    src: "./images/work/magasine.jpg",
     alt: "magasine",
     class: "work-img",
   },
@@ -86,83 +86,83 @@ const imagesForWork = [
 const imagesForLoadMore = [
   {
     category: "web-design",
-    src: "../images/work/banner.jpg",
+    src: "./images/work/banner.jpg",
     alt: "banner",
     class: "work-img",
   },
 
   {
     category: "graphic-design",
-    src: "../images/work/banners-preview.jpg",
+    src: "./images/work/banners-preview.jpg",
     alt: "bobanners-previewok",
     class: "work-img",
   },
 
   {
     category: "landing-pages",
-    src: "../images/work/budmore.jpg",
+    src: "./images/work/budmore.jpg",
     alt: "budmore",
     class: "work-img",
   },
 
   {
     category: "web-design",
-    src: "../images/work/camera.jpg",
+    src: "./images/work/camera.jpg",
     alt: "camera",
     class: "work-img",
   },
 
   {
     category: "wordpress",
-    src: "../images/work/chess.jpg",
+    src: "./images/work/chess.jpg",
     alt: "chess",
     class: "work-img",
   },
 
   {
     category: "web-design",
-    src: "../images/work/desing-desk.jpg",
+    src: "./images/work/desing-desk.jpg",
     alt: "desing-desk",
     class: "work-img",
   },
 
   {
     category: "graphic-design",
-    src: "../images/work/dragon.jpg",
+    src: "./images/work/dragon.jpg",
     alt: "dragon",
     class: "work-img",
   },
 
   {
     category: "web-design",
-    src: "../images/work/linkedin.jpg",
+    src: "./images/work/linkedin.jpg",
     alt: "linkedin",
     class: "work-img",
   },
 
   {
     category: "graphic-design",
-    src: "../images/work/money.jpg",
+    src: "./images/work/money.jpg",
     alt: "money",
     class: "work-img",
   },
 
   {
     category: "landing-pages",
-    src: "../images/work/scheme.jpg",
+    src: "./images/work/scheme.jpg",
     alt: "scheme",
     class: "work-img",
   },
   
   {
     category: "wordpress",
-    src: "../images/work/Stop-loss.jpg",
+    src: "./images/work/Stop-loss.jpg",
     alt: "Stop-loss",
     class: "work-img",
   },
   {
     category: "landing-pages",
-    src: "../images/work/shopping.jpg",
+    src: "./images/work/shopping.jpg",
     alt: "shopping",
     class: "work-img",
   },
@@ -170,7 +170,7 @@ const imagesForLoadMore = [
 
 const imagesForNews = [
   {
-    src: "../images/news/photograf.jpg",
+    src: "./images/news/photograf.jpg",
     alt: "photograf",
     itemClass: "card",
     linkClass: "card-link",
@@ -182,7 +182,7 @@ const imagesForNews = [
   },
 
    {
-    src: "../images/news/fire.jpg",
+    src: "./images/news/fire.jpg",
     alt: "fire",
     itemClass: "card",
     linkClass: "card-link",
@@ -193,7 +193,7 @@ const imagesForNews = [
     descClass: "card-desc",
   },
    {
-    src: "../images/news/bike.jpg",
+    src: "./images/news/bike.jpg",
     alt: "bike",
     itemClass: "card",
     linkClass: "card-link",
@@ -204,7 +204,7 @@ const imagesForNews = [
     descClass: "card-desc",
   },
   {
-    src: "../images/news/tab.jpg",
+    src: "./images/news/tab.jpg",
     alt: "tab",
     itemClass: "card",
     linkClass: "card-link",
@@ -216,7 +216,7 @@ const imagesForNews = [
   },
     
   {
-    src: "../images/news/bird.jpg",
+    src: "./images/news/bird.jpg",
     alt: "bird",
     itemClass: "card",
     linkClass: "card-link",
@@ -227,7 +227,7 @@ const imagesForNews = [
     descClass: "card-desc",
   },
   {
-    src: "../images/news/forest.jpg",
+    src: "./images/news/forest.jpg",
     alt: "forest",
     itemClass: "card",
     linkClass: "card-link",
@@ -238,7 +238,7 @@ const imagesForNews = [
     descClass: "card-desc",
   },
   {
-    src: "../images/news/waterfall.jpg",
+    src: "./images/news/waterfall.jpg",
     alt: "waterfall",
     itemClass: "card",
     linkClass: "card-link",
@@ -249,7 +249,7 @@ const imagesForNews = [
     descClass: "card-desc",
   },
   {
-    src: "../images/news/hands.jpg",
+    src: "./images/news/hands.jpg",
     alt: "hands",
     itemClass: "card",
     linkClass: "card-link",
