@@ -1,0 +1,39 @@
+/* options */
+.options {
+  margin-top: 8px;
+}
+
+.options>.container {
+  width: 1920px;
+}
+
+.options-list {
+  display: flex;
+  justify-content: center;
+}
+
+.options-list>.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 480px;
+  height: 360px;
+
+  text-transform: uppercase;
+  color: var(--accent-text-color);
+  background-color: #1C2A33;
+}
+
+.options-list>.item:nth-child(even) {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.option-desc {
+  margin-top: 48px;
+}
+
+.item:nth-child(even)>.option-desc {
+  margin-top: 67px;
+}

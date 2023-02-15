@@ -1,0 +1,38 @@
+/* purchase */
+.purchase {
+  height: 100%;
+  background-color: #1C2A33;
+  background-image: url("../../images/purchase.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.purchase>.container {
+  height: 477px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.purchase-slogan {  
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1;
+  text-transform: uppercase;
+
+  color: var(--accent-text-color);
+}
+
+.purchase-desc {
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.5;
+
+  color: #D8D8D8;
+}
+
+.purchase .button {
+  margin-top: 62px;
+}

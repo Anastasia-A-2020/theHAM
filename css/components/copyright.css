@@ -1,0 +1,25 @@
+/* copyright */
+.copyright {
+  background-color: #22353F;  
+}
+
+.copyright>.container {
+  padding-top: 48px;
+  padding-bottom: 47px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.857;
+
+  color: #AEAEAE;
+}
+
+.copyright-accent {
+  color: var(--accent-text-color);
+}

@@ -1,0 +1,145 @@
+.feedback {
+  background-color: var(--second-bg-color);
+  background-image: url(../../images/feedback-bg.jpg);
+  
+  height: 853px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.feedback>.container {
+  padding-top: 98px;
+  padding-bottom: 96px;
+}
+
+.feedback .title {
+  color: #FFFFFF;
+  margin-bottom: 99px;
+}
+
+.feedback-icon {
+  fill: var(--accent-text-color);
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.feedback-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 37px;
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: normal;
+  color: #BBBBBB;
+}
+
+.feedback-thumb {
+  margin-top: 38px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 143px;
+  height: 142px;
+  border: 8px solid rgba(31, 218, 181, 0.2);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.client-name {
+  margin-top: 37px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.688;
+  text-transform: uppercase;
+  color: var(--accent-text-color);
+}
+
+.client-position {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 2.077;
+  color: #BBBBBB;
+}
+
+.client-name,
+.client-position {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-img {
+  display: block;
+  border-radius: 50%;
+  border: 4px solid rgba(31, 218, 181, 0.2);
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.slider-img:not(:last-child) {
+  margin-right: 24px;
+}
+
+.slider {
+  margin: 0 25px;
+  height: 70px;
+  width: 312px;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.slider-line {
+  position: relative;
+  left: 0;
+  display: flex;
+  align-items: center;
+  height: 75px;
+  width: 480px;
+  transition: left 500ms;
+}
+
+.slider-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 31px;
+  height: 31px;
+  background-color: transparent;
+  border: 1px solid #BBBBBB;
+  color: #BBBBBB;
+  transition: background-color var(--transitionTimingFunction), border-color var(--transitionTimingFunction);
+}
+
+.slider-icon:hover{
+  border-color: var(--accent-color);
+  background-color: var(--accent-color);
+  color: #FFFFFF;
+}
+
+.active-slide {
+  align-self: flex-start;
+}
+
+.feedback-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content {
+  margin-bottom: 51px;
+}
+

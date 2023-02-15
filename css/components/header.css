@@ -1,0 +1,64 @@
+/* header */
+.page-header {
+  position: absolute;
+  height: 120px;
+  width: 100%;
+  background-color: rgba(94, 93, 88, 0.6);
+}
+
+.page-header .container {
+  display: flex;
+}
+
+.navigation{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  position: relative;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+
+  transition: color var(--transitionTimingFunction);
+}
+
+.nav-item:hover,
+.nav-item:focus {
+  color: var(--accent-text-color);
+}
+
+.nav-item:hover::after {
+  content: "";
+  position: absolute;
+  bottom: -32px;
+  display: block;
+  border: 2px solid var(--accent-text-color);
+  height: 2px;
+  width: 100%;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 21.09px;
+}
+
+.nav-link {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.nav-link .nav-icon {
+   display: flex;
+  align-items: center;
+  justify-content: center;
+}
