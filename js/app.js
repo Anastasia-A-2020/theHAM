@@ -36,7 +36,7 @@ const imagesForWork = [
 
   {
     category: "web-design",
-    src: "../images/work/tab.jpg",
+    src: "./images/work/tab.jpg",
     alt: "tab",
     class: "work-img",
   },
