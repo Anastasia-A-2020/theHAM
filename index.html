@@ -5,8 +5,447 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Inter&family=Montserrat:wght@300;400;700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> 
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/utils.css" />
+    <link rel="stylesheet" href="./css/components/header.css" />
+    <link rel="stylesheet" href="./css/components/home.css" />
+    <link rel="stylesheet" href="./css/components/options.css" />
+    <link rel="stylesheet" href="./css/components/service.css" />
+    <link rel="stylesheet" href="./css/components/purchase.css">
+    <link rel="stylesheet" href="./css/components/copyright.css">
+    <link rel="stylesheet" href="./css/components/work.css">
+    <link rel="stylesheet" href="./css/components/news.css">
+    <link rel="stylesheet" href="./css/components/feedback.css">
 </head>
 <body>
-  
+  <button id="btnUp" class="is-hidden"><a href="#logo" class="link "></a></button>
+  <header class="page-header">
+      <div class="container">
+        <a href="#" class="logo" id="logo">
+          <img src="./images/logo.png" alt="logo" />
+        </a>
+        <nav class="navigation">
+          <ul class="list nav-list">
+            <li class="item nav-item">
+              <a href="#home" class="link nav-link">Home</a>
+            </li>
+            <li class="item nav-item">
+              <a href="#feedback" class="link nav-link">About</a>
+            </li>
+            <li class="item nav-item">
+              <a href="#news" class="link nav-link">Blog</a>
+            </li>
+            <li class="item nav-item">
+              <a href="#options" class="link nav-link">Skills</a>
+            </li>
+            <li class="item nav-item">
+              <a href="#service" class="link nav-link">Service</a>
+            </li>
+            <li class="item nav-item">
+              <a href="#work" class="link nav-link">Work</a>
+            </li>
+            <li class="item nav-item">
+              <a href="#feedback" class="link nav-link">Testimonial</a>
+            </li>
+            <li class="item nav-item">
+              <a href="#" class="link nav-link">
+                <svg width="21" height="20" class="nav-icon icon">
+                  <use href="./images/symbol-defs.svg#icon-search" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="home" id="home">
+      <div class="container">
+        <h1 class="title home-title">
+          The Ham is
+          <spam class="home-title-accent">Wordpress theme</spam>
+        </h1>
+        <p class="home-desc">
+          we are creative
+        </p>
+        <p class="home-slogan">
+          Just buy and enjoy these awesome features
+        </p>
+        <ul class="list home-list">
+          <li class="item">
+            <button class="button">Explore now</button>
+          </li>
+          <li class="item">
+            <button class="button">Purchase now</button>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="options" id="options">
+      <div class="container">
+        <ul class="list options-list">
+          <li class="item">
+            <svg class="icon" width="57.54" height="97">
+              <use href="./images/symbol-defs.svg#icon-finger" />
+            </svg>
+            <p class="option-desc">Different theme option</p>
+          </li>
+          <li class="item">
+            <svg class="icon" width="93" height="75">
+              <use href="./images/symbol-defs.svg#icon-crystal" />
+            </svg>
+            <p class="option-desc">fully customizable</p>
+          </li>
+          <li class="item">
+            <svg class="icon" width="60" height="96">
+              <use href="./images/symbol-defs.svg#icon-bulb" />
+            </svg>
+            <p class="option-desc">unlimited support</p>
+          </li>
+          <li class="item">
+            <svg class="icon" width="99" height="76">
+              <use href="./images/symbol-defs.svg#icon-devices" />
+            </svg>
+            <p class="option-desc">responsive all device</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="service" id="service">
+      <div class="container">
+        <h2 class="title title-elements service-title">Our Services</h2>
+        <ul class="list service-list">
+          <li class="item">
+            <a href="#1" class="link service-link service-link--active" data-state="js-active" rel="noopener noreferrer">
+              Web Design
+            </a>
+            <div class="service-info">
+              <img
+                width="194"
+                class="service-img"
+                src="./images/service/service.jpg"
+                alt="A man working on the tablet"
+              />
+              
+              <p class="service-desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui 
+                deserunt mollit anim id est laborum. Deserunt mollit anim id est
+                laborum. Lorem ipsum dolor sit amet, consectetur adip isicing
+                elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+            
+          </li>
+          <li class="item">
+            <a href="#2" class="link service-link " rel="noopener noreferrer">
+              Graphic Design
+            </a>
+            <div class="service-info is-hidden">
+              <img
+                class="service-img"
+                src="./images/service/service-6.jpg"
+                alt="The bilding"
+              />
+              <p class="service-desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia dolor sit amet, consectetur adip isicing
+                elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </li>
+          <li class="item">
+            <a href="#3" class="link service-link" rel="noopener noreferrer">
+              Online Support
+              <svg width="27" height="15" class="icon-arrow  is-hidden">
+                <use href="./images/symbol-defs.svg#icon-arrow-down">
+              </svg>
+            </a>
+            <div class="service-info is-hidden">
+              <img
+                class="service-img"
+                src="./images/service/service-2.jpg"
+                alt="A cinema"
+              />
+              <p class="service-desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum. Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Excepteur
+                sint occaecat cupidatat non proident, suntadip isicing
+                elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </li>
+          <li class="item">
+            <a href="#4" class="link service-link" rel="noopener noreferrer">
+              App Design
+              <svg width="27" height="15" class="icon-arrow  is-hidden">
+                <use href="./images/symbol-defs.svg#icon-arrow-down">
+              </svg>
+            </a>
+            <div class="service-info is-hidden">
+              <img
+                class="service-img"
+                src="./images/service/service-3.jpg"
+                alt="The horses"
+              />
+              <p class="service-desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum. Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Excepteur
+                sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est labo
+                aliqua. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </li>
+          <li class="item">
+            <a href="#5" class="link service-link" rel="noopener noreferrer">
+              Online Marketing
+              <svg width="27" height="15" class="icon-arrow  is-hidden">
+                <use href="./images/symbol-defs.svg#icon-arrow-down">
+              </svg>
+            </a>
+            <div class="service-info is-hidden">
+              <img
+                class="service-img"
+                src="./images/service/service-4.jpg"
+                alt="A pool and a palm"
+              />
+              <p class="service-desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum. Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Excepteur
+                sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum. Deserunt mollit anim id est
+                laborum. Lorem ipsum dolor sit amet, consectetur adip isicing
+                elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </li>
+          <li class="item">
+            <a href="#6" class="link service-link" rel="noopener noreferrer">
+              Seo Service
+              <svg width="27" height="15" class="icon-arrow is-hidden">
+                <use href="./images/symbol-defs.svg#icon-arrow-down">
+              </svg>
+            </a>
+            <div class="service-info is-hidden">
+              <img
+                class="service-img"
+                src="./images/service/service-5.jpg"
+                alt="A flat"
+              />
+              <p class="service-desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum. Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Excepteur
+                sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum. Deserunt mollit anim id est
+                laborum. Lorem ipsum dolor sit amet, consectetur adip isicing
+                elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </li>
+        </ul>
+        
+      </div>
+    </section>
+
+    <section class="purchase" id="purchase">
+      <div class="container">
+        <p class="purchase-slogan">
+          Everything is ready. just buy and install now
+        </p>
+        <p class="purchase-desc">
+          Smooth reliable, responsive ready, perfect portfolio, unique blog layout and many many options for you
+        </p>
+        <button class="button">purchase now</button>
+      </div>
+    </section>
+    <section class="work" id="work">
+      <div class="container">
+        <h2 class="title title-elements">Our Amazing Work</h2>
+        <ul class="list work-menu">
+          <li class="item work-menu-item active-filter">
+            <button class="work-menu-btn" data-filter="all">All</button>
+          </li>
+          <li class="item work-menu-item">
+            <button class="work-menu-btn" data-filter="graphic-design">Graphic Design</button>
+          </li>
+          <li class="item work-menu-item">
+            <button class="work-menu-btn" data-filter="web-design">Web Design</button>
+          </li>
+          <li class="item work-menu-item">
+            <button class="work-menu-btn" data-filter="landing-pages">Landing Pages</button>
+          </li>
+          <li class="item work-menu-item">
+            <button class="work-menu-btn" data-filter="wordpress">Wordpress</button>
+          </li>
+        </ul>
+
+        <ul class="list work-images"></ul>
+
+        <button class="button btn-load-more btn-before">
+          Load More
+        </button>
+      </div>
+    </section>
+
+    <section class="news" id="news">
+      <div class="container">
+        <h2 class="title title-elements news-title">Breaking News</h2>
+        <ul class="list news-list">
+          
+        </ul>
+      </div>
+    </section>
+
+    <section class="feedback" id="feedback">
+      <div class="container">
+        <h2 class="title title-elements">What People Say About theHam</h2>
+        <div class="feedback-wrapper">
+          <div class="content">
+            <div class="client-feedback visible-feedback" data-id="photo">
+          <svg class="icon feedback-icon" width="44" height="30">
+            <use href="./images/symbol-defs.svg#icon-quotes"/>
+          </svg>
+          <p class="feedback-text">Integer dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis.</p>
+          <p class="client-name">Hasan Ali</p>
+          <p class="client-position">UX Designer</p>
+          <div class="feedback-thumb">
+            <img src="./images/feedback/photo.jpg" alt="Man with glasses">
+          </div>
+        </div>
+        <div class="client-feedback is-hidden" data-id="harry">
+          <svg class="icon feedback-icon" width="44" height="30">
+            <use href="./images/symbol-defs.svg#icon-quotes"/>
+          </svg>
+          <p class="feedback-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laborum nemo esse nulla nihil magnam voluptas quidem, molestiae nobis maiores beatae, deserunt commodi. Eius?</p>
+          <p class="client-name">Harry Potter</p>
+          <p class="client-position">Fronend developer</p>
+          <div class="feedback-thumb">
+            <img src="./images/feedback/harry.jpg" alt="Boy with glasses">
+          </div>
+        </div>
+        <div class="client-feedback is-hidden" data-id="germiona">
+          <svg class="icon feedback-icon" width="44" height="30">
+            <use href="./images/symbol-defs.svg#icon-quotes"/>
+          </svg>
+          <p class="feedback-text">Lorem ipsum doloro, voluptatibus nisi! Porro fugit voluptate sint harum quos, eum adipisci facere quidem unde voluptatem repudiandae sapiente impedit ullam ut ratione, odio fuga deleniti? Sed maiores magnam accusantium quod deleniti numquam explicabo quas eveniet!</p>
+          <p class="client-name">Garmiona Granger</p>
+          <p class="client-position">Web-designer</p>
+          <div class="feedback-thumb">
+            <img src="./images/feedback/germiona.jpg" alt="Girl with curly hair">
+          </div>
+        </div>
+        <div class="client-feedback is-hidden" data-id="ron">
+          <svg class="icon feedback-icon" width="44" height="30">
+            <use href="./images/symbol-defs.svg#icon-quotes"/>
+          </svg>
+          <p class="feedback-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, debitis facere cupiditate tempore omnis ipsum suscipit unde nihil provident voluptas!</p>
+          <p class="client-name">Ron Wisley</p>
+          <p class="client-position">Graphic-designer</p>
+          <div class="feedback-thumb">
+            <img src="./images/feedback/ron.jpg" alt="Boy with rad hair">
+          </div>
+        </div>
+        <div class="client-feedback is-hidden" data-id="drako">
+          <svg class="icon feedback-icon" width="44" height="30">
+            <use href="./images/symbol-defs.svg#icon-quotes"/>
+          </svg>
+          <p class="feedback-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laborum nemo esse nulla nihil magnam voluptas quidem, molestiae nobis maiores beatae, deserunt commodi. Eius?</p>
+          <p class="client-name">Drako Malfoj</p>
+          <p class="client-position">Backend developer</p>
+          <div class="feedback-thumb">
+            <img src="./images/feedback/drako.jpg" alt="Blond boy">
+          </div>
+        </div>
+        <div class="client-feedback is-hidden" data-id="neville">
+          <svg class="icon feedback-icon" width="44" height="30">
+            <use href="./images/symbol-defs.svg#icon-quotes"/>
+          </svg>
+          <p class="feedback-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, cupiditate voluptates inventore eaque deleniti nesciunt voluptatum natus vitae dolores asperiores neque aspernatur tenetur perferendis! Eos nobis tempore dolor id quam.</p>
+          <p class="client-name">Neville Dolgopups</p>
+          <p class="client-position">Graphic-designer</p>
+          <div class="feedback-thumb">
+            <img src="./images/feedback/neville.jpg" alt="Boy in a hat">
+          </div>
+        </div>
+          </div>
+        
+        <div class="slider-container">
+          <button class="slider-prev slider-icon" data-slider="js-prev">
+            <svg class="icon " width="10" height="15">
+              <use href="./images/symbol-defs.svg#icon-arrow-left"/>
+            </svg>
+          </button>
+        <div class="slider">          
+          <div class="slider-line">
+            <img data-id="photo" src="./images/feedback/photo.jpg" alt="Man with glasses"  class="slider-img active-slide">
+            <img data-id="harry" src="./images/feedback/harry.jpg" alt="Boy with glasses" class="slider-img">
+            <img data-id="ron" src="./images/feedback/ron.jpg" alt="Boy with rad hair" class="slider-img ">
+            <img data-id="germiona" src="./images/feedback/germiona.jpg" alt="Girl with curly hair"  class="slider-img">
+            <img data-id="drako" src="./images/feedback/drako.jpg" alt="Blond boy"  class="slider-img">
+            <img data-id="neville" src="./images/feedback/neville.jpg" alt="Boy in a hat"  class="slider-img">
+          </div>          
+        </div>
+        <button class="slider-next slider-icon" data-slider="js-next">
+          <svg class="icon " width="10" height="15">
+            <use href="./images/symbol-defs.svg#icon-arrow-right"/>
+          </svg>
+        </button>
+        </div>
+        
+        </div>
+      </div>
+    </section>
+
+    <section class="copyright">
+      <div class="container">
+        <p class="container-text">
+          &copy Copyright 2015 <span class="copyright-accent">theHam</span> | All Rights Reserved
+        </p>
+      </div>
+    </section>
+
+    <script src="./js/app.js"></script>
 </body>
 </html>
